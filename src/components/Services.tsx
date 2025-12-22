@@ -11,19 +11,17 @@ import {
   Building2,
   Home,
   Bath,
-  Zap,
   Paintbrush,
-  Wrench,
   Wind,
 } from "lucide-react";
 import waterTankImg from "@/assets/water-tank.jpg";
 import officeCleaningImg from "@/assets/office-cleaning.jpg";
 import houseCleaningImg from "@/assets/house-cleaning.jpg";
-import bathroomCleaningImg from "@/assets/bathroom-cleaning.jpg";
-import electricianImg from "@/assets/electrician.jpg";
-import painterImg from "@/assets/painter.jpg";
-import plumberImg from "@/assets/plumber.jpg";
-import acServiceImg from "@/assets/ac-service.jpg";
+import kitchenCleaningImg from "@/assets/young-woman-cleaning-kitchen-furniture-rubber-gloves.jpg";
+import galaichaImg from "@/assets/people-housework-housekeeping-concept-close-up-woman-with-legs-vacuum-cleaner-cleaning-carpet-home.jpg";
+import carpetImg from "@/assets/man-doing-household-tasks.jpg";
+import sofaImg from "@/assets/lifestyle-house-decoration-home-white.jpg";
+import tileImg from "@/assets/woman-cleaning-shower-wall.jpg";
 
 const services = [
   {
@@ -35,52 +33,52 @@ const services = [
   },
   {
     icon: Building2,
-    title: "Office Cleaning",
+    title: "Office General and Deep Cleaning",
     description:
       "From homes to offices, deep cleaning to regular upkeep — our trained cleaners ensure every corner shines with hygiene and freshness.",
     image: officeCleaningImg,
   },
   {
     icon: Home,
-    title: "House Cleaning",
+    title: "Flat General and Deep Cleaning",
     description:
       "Complete room-to-room cleaning including dusting, mopping, cobweb removal, and trash disposal.",
     image: houseCleaningImg,
   },
   {
     icon: Bath,
-    title: "Bathroom Cleaning",
+    title: "Kitchen Deep Cleaning",
     description:
-      "We tackle stubborn stains, remove odor, and disinfect surfaces to give you a sparkling, sanitized bathroom.",
-    image: bathroomCleaningImg,
-  },
-  {
-    icon: Zap,
-    title: "Electrician Services",
-    description:
-      "From fixing lights and switches to wiring and maintenance — our electricians are ready to help.",
-    image: electricianImg,
-  },
-  {
-    icon: Paintbrush,
-    title: "Painter Services",
-    description:
-      "Whether it's a fresh coat or artistic wall painting for schools — our painters handle walls, ceilings, and custom designs.",
-    image: painterImg,
-  },
-  {
-    icon: Wrench,
-    title: "Plumber Services",
-    description:
-      "Leaky taps or broken pipes? Our plumbers are just a call away to ensure your plumbing works perfectly.",
-    image: plumberImg,
+      "We tackle stubborn stains, remove odor, and disinfect surfaces to give you a sparkling, sanitized kitchen.",
+    image: kitchenCleaningImg,
   },
   {
     icon: Wind,
-    title: "AC Servicing & Repair",
+    title: "Galaicha Cleaning ",
     description:
-      "Keep your air conditioning system running efficiently with our expert cleaning, gas refill, and maintenance services.",
-    image: acServiceImg,
+      "Let our expert team transform your galaicha from tired and dull to fresh, inviting, and hygienically clean.",
+    image: galaichaImg,
+  },
+  {
+    icon: Paintbrush,
+    title: "Carpet Cleaning",
+    description:
+      "We make dirty carpets disappear, restoring the beauty and hygiene of your home.",
+    image: carpetImg,
+  },
+  {
+    icon: Wind,
+    title: "Sofa Cleaning",
+    description:
+      "Our expert deep cleaning service removes dirt, spots, and odors at the molecular level, ensuring a healthier living space.",
+    image: sofaImg,
+  },
+  {
+    icon: Paintbrush,
+    title: "Tile Cleaning",
+    description:
+      "We restore your floors to their original glory! Safe, effective, and hassle-free cleaning.",
+    image: tileImg,
   },
 ];
 
