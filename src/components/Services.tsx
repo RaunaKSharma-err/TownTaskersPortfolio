@@ -35,7 +35,7 @@ const services = [
     icon: Building2,
     title: "Office General and Deep Cleaning",
     description:
-      "From homes to offices, deep cleaning to regular upkeep — our trained cleaners ensure every corner shines with hygiene and freshness.",
+      "From homes to offices, deep cleaning to regular upkeep ensuring every corner shines.",
     image: officeCleaningImg,
   },
   {
@@ -49,7 +49,7 @@ const services = [
     icon: Bath,
     title: "Kitchen Deep Cleaning",
     description:
-      "We tackle stubborn stains, remove odor, and disinfect surfaces to give you a sparkling, sanitized kitchen.",
+      "We tackle stubborn stains, remove odor, and disinfect surfaces to give you a sparkling, sanitized and healthy kitchen.",
     image: kitchenCleaningImg,
   },
   {
@@ -70,7 +70,7 @@ const services = [
     icon: Wind,
     title: "Sofa Cleaning",
     description:
-      "Our expert deep cleaning service removes dirt, spots, and odors at the molecular level, ensuring a healthier living space.",
+      "Our expert removes dirt, spots, and odors at the molecular level, ensuring a healthier living space.",
     image: sofaImg,
   },
   {
