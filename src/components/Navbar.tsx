@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@assets/tt.png";
+import logo from "../assets/tt.png";
+import logo1 from "../assets/tt2.png";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -42,20 +43,22 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
-          <a
-            href="#home"
-            className="flex items-center"
-            onClick={(e) => scrollToSection(e, "#home")}
-          >
-            <span
-              className={`text-xl sm:text-2xl font-heading font-bold text-primary ${
-                isScrolled ? "" : "text-primary-foreground"
-              }`}
+          <div className="flex justify-center items-center">
+            <img src={`${isScrolled ? logo1 : logo}`} className="h-14" />
+            <a
+              href="#home"
+              className="flex items-center"
+              onClick={(e) => scrollToSection(e, "#home")}
             >
-              <img src="@assets/tt.png" classname="rounded-full h-20">
-              TownTaskers
-            </span>
-          </a>
+              <span
+                className={`text-xl sm:text-2xl font-heading font-bold text-primary ${
+                  isScrolled ? "" : "text-primary-foreground"
+                }`}
+              >
+                TownTaskers
+              </span>
+            </a>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
