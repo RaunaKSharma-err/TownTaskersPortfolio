@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@assets/tt.png";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -51,6 +52,7 @@ const Navbar = () => {
                 isScrolled ? "" : "text-primary-foreground"
               }`}
             >
+              <img src="@assets/tt.png" classname="rounded-full h-20">
               TownTaskers
             </span>
           </a>
